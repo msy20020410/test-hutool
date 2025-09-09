@@ -1,0 +1,9 @@
+GET http://localhost:8080/io/copy
+Accept: application/json
+
+###
+
+GET http://localhost:8080/io/append
+Accept: application/json
+
+
