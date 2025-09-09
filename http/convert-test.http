@@ -10,3 +10,19 @@ Accept: application/json
 
 GET http://localhost:8080/convert/toDate
 Accept: application/json
+
+###
+
+GET http://localhost:8080/convert/toHex
+Accept: application/json
+
+
+###
+
+GET http://localhost:8080/convert/HexToStr
+Accept: application/json
+
+###
+
+GET http://localhost:8080/convert/toChinese
+Accept: application/json
