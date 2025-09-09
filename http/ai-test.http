@@ -1,0 +1,12 @@
+GET http://localhost:8080/ai/chat
+Accept: application/json
+
+###
+
+GET http://localhost:8080/ai/models
+Accept: application/json
+
+###
+
+GET http://localhost:8080/ai/balance
+Accept: application/json

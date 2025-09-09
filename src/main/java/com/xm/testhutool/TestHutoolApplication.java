@@ -1,0 +1,13 @@
+package com.xm.testhutool;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TestHutoolApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TestHutoolApplication.class, args);
+    }
+
+}

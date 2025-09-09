@@ -1,0 +1,12 @@
+GET http://localhost:8080/convert/toStr
+Accept: application/json
+
+###
+
+GET http://localhost:8080/convert/to
+Accept: application/json
+
+###
+
+GET http://localhost:8080/convert/toDate
+Accept: application/json
