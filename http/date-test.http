@@ -1,0 +1,15 @@
+GET http://localhost:8080/date/now
+Accept: application/json
+
+###
+
+GET http://localhost:8080/date/between
+Accept: application/json
+
+###
+
+GET http://localhost:8080/date/timer
+Accept: application/json
+
+###
+
