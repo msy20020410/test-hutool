@@ -1,0 +1,32 @@
+GET http://localhost:8080/common/clipboard
+Accept: application/json
+
+###
+
+GET http://localhost:8080/common/class
+Accept: application/json
+
+###
+
+GET http://localhost:8080/common/cmd
+Accept: application/json
+
+###
+
+GET http://localhost:8080/common/zip
+Accept: application/json
+
+###
+
+GET http://localhost:8080/common/random
+Accept: application/json
+
+###
+
+GET http://localhost:8080/common/id
+Accept: application/json
+
+###
+
+
+
