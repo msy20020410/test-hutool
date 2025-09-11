@@ -28,5 +28,15 @@ Accept: application/json
 
 ###
 
+GET http://localhost:8080/common/idcard
+Accept: application/json
+
+###
+
+GET http://localhost:8080/common/mask
+Accept: application/json
+
+###
+
 
 

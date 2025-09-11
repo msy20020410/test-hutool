@@ -55,4 +55,21 @@ public class CommonController {
     public String id() {
         return IdUtil.randomUUID();
     }
+
+    // 身份证工具类
+    @RequestMapping("/idcard")
+    public Info idcard() {
+        String idcard = "341522200204108197";
+        return Info.builder()
+                .valid(IdcardUtil.isValidCard(idcard))
+                .birth(IdcardUtil.getBirthByIdCard(idcard))
+                .province(IdcardUtil.getProvinceByIdCard(idcard))
+                .build();
+    }
+
+    // 信息脱敏工具
+    @RequestMapping("/mask")
+    public String mask() {
+        return DesensitizedUtil.mobilePhone("13800000001");
+    }
 }
