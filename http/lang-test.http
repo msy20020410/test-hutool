@@ -1,0 +1,14 @@
+GET http://localhost:8080/dict
+Accept: application/json
+
+###
+
+GET http://localhost:8080/assert
+Accept: application/json
+
+###
+
+GET http://localhost:8080/console
+Accept: application/json
+
+###
